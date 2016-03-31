@@ -13,6 +13,21 @@ Whether it id C# or TypeScript, I folllow this format.  In regards to the openTo
 3) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/provider.ts">openTok.Provider</A>
 
 The thing to pay attention to here is the following:
-Provider, is acts as the public class, to interact with the rest of the application.  This class inherits from Handler.ts, which inturns inherits from Base.ts.
+Provider, is a class that acts as the public class, to interact with the rest of the application.  This class inherits from Handler.ts, which inturns inherits from Base.ts.
+
+```
+module openTok {
+    export class Provider extends openTok.Handler {
+  }
+}
+```
+
+```
+module openTok {
+    declare let OT:any;
+    export class Handler extends Base {
+     }
+}
+```
 
 ### Inheritence is a thing
