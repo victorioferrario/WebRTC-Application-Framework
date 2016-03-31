@@ -8,7 +8,9 @@ The main entry point of the application begins @ <a href="https://github.com/vmf
 
 Whether it id C# or TypeScript, I folllow this format.  In regards to the openTok integration, I have broken down functionality into the following classes:
 
-1) <a href=" https://github.com/vmfdesign/openTok3/blob/master/src/services/provider.ts">openTok.Provider</A>
+1) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/base.ts">openTok.Base</A>
+2) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/handler.ts">openTok.Handler</A>
+3) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/provider.ts">openTok.Provider</A>
 
 
 
