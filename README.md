@@ -12,7 +12,7 @@ Whether it id C# or TypeScript, I folllow this format.  In regards to the openTo
 2) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/handler.ts">openTok.Handler</A>
 3) <a href="https://github.com/vmfdesign/openTok3/blob/master/src/services/provider.ts">openTok.Provider</A>
 
-
+The thing to pay attention to here is the following:
+Provider, is acts as the public class, to interact with the rest of the application.  This class inherits from Handler.ts, which inturns inherits from Base.ts.
 
 ### Inheritence is a thing
-yes
