@@ -1,9 +1,9 @@
 # Welcome
 
 This application is written in typescript, using the following libraries:
-> knockoutjs
-> jquery
-> openTok
+* knockoutjs
+* jquery
+* openTok
 
 The current repository is the third refactoring of this library. I have spent some time genericising the structure, and namespaces to ensure max reusiblity.
 
